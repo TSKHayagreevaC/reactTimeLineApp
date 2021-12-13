@@ -42,14 +42,14 @@ export const ProjectDurationContainer = styled.div`
   align-items: center;
 `
 export const ProjectDurationText = styled.p`
-margin: 3px 0px 3px 3px;
-font-size; 14px;
-font-weight: bold;
-line-height: 1;
-@media screen and (min-width: 768px) {
+  margin: 3px 0px 3px 3px;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1;
+  @media screen and (min-width: 768px) {
     margin: 10px 0px 10px 10px;
     font-size: 24px;
-}
+  }
 `
 
 export const ProjectDescriptionText = styled.p`
@@ -65,9 +65,9 @@ export const ProjectDescriptionText = styled.p`
 export const ProjectWebsiteLink = styled.a`
   font-size: 14px;
   align-self: flex-start;
+  color: #0967d2;
   font-family: 'Roboto';
   margin: 0px;
-  color: #0967d2;
   font-weight: bold;
   text-decoration: none;
   @media screen and (min-width: 768px) {

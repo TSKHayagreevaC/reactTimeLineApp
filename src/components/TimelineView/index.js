@@ -3,11 +3,7 @@ import {Chrono} from 'react-chrono'
 import CourseTimeLineCard from '../CourseTimelineCard'
 import ProjectTimeLineCard from '../ProjectTimelineCard'
 
-import {
-  TimeLineContainer,
-  TimeLineHeading,
-  CcbpHeading,
-} from './styledComponents'
+import {TimeLineContainer, TimeLineHeading, CcbpSpan} from './styledComponents'
 
 const TimelineView = props => {
   const {timelineItemsList} = props
@@ -23,7 +19,7 @@ const TimelineView = props => {
     <TimeLineContainer>
       <TimeLineHeading>
         MY JOURNEY OF <br />
-        <CcbpHeading>CCBP 4.0</CcbpHeading>
+        <CcbpSpan>CCBP 4.0</CcbpSpan>
       </TimeLineHeading>
       <Chrono
         theme={{
